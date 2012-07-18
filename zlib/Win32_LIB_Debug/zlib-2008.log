@@ -1,0 +1,62 @@
+﻿Build started 18.07.2012 17:29:37.
+     1>Project "d:\Projects\PDFLibNet\zlib\zlib-2008.vcxproj" on node 4 (Rebuild target(s)).
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _VC80_UPGRADE=0x0600 /Gm /EHsc /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo".\Win32_LIB_Debug\adler321.obj" /Fd".\Win32_LIB_Debug/vc100.pdb" /Gd /TC /analyze- /errorReport:prompt adler32.c
+         adler32.c
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _VC80_UPGRADE=0x0600 /Gm /EHsc /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo".\Win32_LIB_Debug\compress1.obj" /Fd".\Win32_LIB_Debug/vc100.pdb" /Gd /TC /analyze- /errorReport:prompt compress.c
+         compress.c
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _VC80_UPGRADE=0x0600 /Gm /EHsc /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo".\Win32_LIB_Debug\crc321.obj" /Fd".\Win32_LIB_Debug/vc100.pdb" /Gd /TC /analyze- /errorReport:prompt crc32.c
+         crc32.c
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _VC80_UPGRADE=0x0600 /Gm /EHsc /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo".\Win32_LIB_Debug\deflate1.obj" /Fd".\Win32_LIB_Debug/vc100.pdb" /Gd /TC /analyze- /errorReport:prompt deflate.c
+         deflate.c
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _VC80_UPGRADE=0x0600 /Gm /EHsc /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo".\Win32_LIB_Debug\gzio1.obj" /Fd".\Win32_LIB_Debug/vc100.pdb" /Gd /TC /analyze- /errorReport:prompt gzio.c
+         gzio.c
+     1>d:\projects\pdflibnet\zlib\gzio.c(131): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(105) : see declaration of 'strcpy'
+     1>d:\projects\pdflibnet\zlib\gzio.c(181): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(234) : see declaration of 'fopen'
+     1>d:\projects\pdflibnet\zlib\gzio.c(226): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : see declaration of 'sprintf'
+     1>d:\projects\pdflibnet\zlib\gzio.c(627): warning C4996: '_vsnprintf': This function or variable may be unsafe. Consider using _vsnprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(363) : see declaration of '_vsnprintf'
+     1>d:\projects\pdflibnet\zlib\gzio.c(1001): warning C4996: 'strerror': This function or variable may be unsafe. Consider using strerror_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(157) : see declaration of 'strerror'
+     1>d:\projects\pdflibnet\zlib\gzio.c(1008): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(105) : see declaration of 'strcpy'
+     1>d:\projects\pdflibnet\zlib\gzio.c(1009): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(110) : see declaration of 'strcat'
+     1>d:\projects\pdflibnet\zlib\gzio.c(1010): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(110) : see declaration of 'strcat'
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _VC80_UPGRADE=0x0600 /Gm /EHsc /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo".\Win32_LIB_Debug\infback1.obj" /Fd".\Win32_LIB_Debug/vc100.pdb" /Gd /TC /analyze- /errorReport:prompt infback.c
+         infback.c
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _VC80_UPGRADE=0x0600 /Gm /EHsc /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo".\Win32_LIB_Debug\inffast1.obj" /Fd".\Win32_LIB_Debug/vc100.pdb" /Gd /TC /analyze- /errorReport:prompt inffast.c
+         inffast.c
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _VC80_UPGRADE=0x0600 /Gm /EHsc /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo".\Win32_LIB_Debug\inflate1.obj" /Fd".\Win32_LIB_Debug/vc100.pdb" /Gd /TC /analyze- /errorReport:prompt inflate.c
+         inflate.c
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _VC80_UPGRADE=0x0600 /Gm /EHsc /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo".\Win32_LIB_Debug\inftrees1.obj" /Fd".\Win32_LIB_Debug/vc100.pdb" /Gd /TC /analyze- /errorReport:prompt inftrees.c
+         inftrees.c
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _VC80_UPGRADE=0x0600 /Gm /EHsc /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo".\Win32_LIB_Debug\trees1.obj" /Fd".\Win32_LIB_Debug/vc100.pdb" /Gd /TC /analyze- /errorReport:prompt trees.c
+         trees.c
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _VC80_UPGRADE=0x0600 /Gm /EHsc /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo".\Win32_LIB_Debug\uncompr1.obj" /Fd".\Win32_LIB_Debug/vc100.pdb" /Gd /TC /analyze- /errorReport:prompt uncompr.c
+         uncompr.c
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _VC80_UPGRADE=0x0600 /Gm /EHsc /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo".\Win32_LIB_Debug\zutil1.obj" /Fd".\Win32_LIB_Debug/vc100.pdb" /Gd /TC /analyze- /errorReport:prompt zutil.c
+         zutil.c
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(1151,5): warning MSB8012: TargetPath(d:\Projects\PDFLibNet\zlib\..\bin\zlib.lib) does not match the Library's OutputFile property value (d:\Projects\PDFLibNet\bin\zlib_D.lib). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Lib.OutputFile).
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(1153,5): warning MSB8012: TargetName(zlib) does not match the Library's OutputFile property value (zlib_D). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Lib.OutputFile).
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\Lib.exe /OUT:"..\bin\zlib_D.lib" /NOLOGO .\Win32_LIB_Debug\adler321.obj
+         .\Win32_LIB_Debug\compress1.obj
+         .\Win32_LIB_Debug\crc321.obj
+         .\Win32_LIB_Debug\deflate1.obj
+         .\Win32_LIB_Debug\gzio1.obj
+         .\Win32_LIB_Debug\infback1.obj
+         .\Win32_LIB_Debug\inffast1.obj
+         .\Win32_LIB_Debug\inflate1.obj
+         .\Win32_LIB_Debug\inftrees1.obj
+         .\Win32_LIB_Debug\trees1.obj
+         .\Win32_LIB_Debug\uncompr1.obj
+         .\Win32_LIB_Debug\zutil1.obj
+         zlib-2008.vcxproj -> d:\Projects\PDFLibNet\zlib\..\bin\zlib.lib
+     1>Done Building Project "d:\Projects\PDFLibNet\zlib\zlib-2008.vcxproj" (Rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.66
