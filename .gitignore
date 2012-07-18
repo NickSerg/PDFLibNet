@@ -1,0 +1,28 @@
+# Ignore MAC OS files
+.DS_Store
+
+# Ignore Resharper/VisualStudio files
+
+
+_ReSharper.*
+*.ReSharper
+*.user
+*.suo
+bin/
+obj/
+Debug/
+Release/
+
+
+# Ignore X-Code files
+build/
+*.pbxuser
+*.mode1v3
+*.mode2v3
+
+
+*.perspectivev3
+*.tmproj
+*.swp
+*.tm_build_errors
+xcuserdata/
