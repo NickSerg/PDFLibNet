@@ -79,7 +79,9 @@ public:
 	long FitScreenWidth(long lhWnd);
 	long FitScreenHeight(long lhWnd);
 	long GetPageWidth(void);
+	long GetPageCropWidth(void);
 	long GetPageHeight(void);
+	long GetPageCropHeight(void);	
 	long GetOutlineCount(void);
 	long GetOutlinePtr(long iOutline);
 	long ProcessLinkAction(long lPtrLinkAction);

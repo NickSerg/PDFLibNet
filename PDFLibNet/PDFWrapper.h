@@ -395,9 +395,23 @@ namespace PDFLibNet {
 				return _pdfDoc->GetPageWidth();
 			}
 		}
+		property long PageCropWidth 
+		{
+			long get()
+			{
+				return _pdfDoc->GetPageCropWidth();
+			}
+		}
 		property long PageHeight {
 			long get(){
 				return _pdfDoc->GetPageHeight();
+			}
+		}
+		property long PageCropHeight
+		{
+			long get()
+			{
+				return _pdfDoc->GetPageCropHeight();
 			}
 		}
 		property long CurrentX {

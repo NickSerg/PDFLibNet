@@ -2030,13 +2030,22 @@
 		
 		return m_PageWidth;
 	}
+	
+	long AFPDFDoc::GetPageCropWidth(void)
+	{
+		return m_PDFDoc->getPageCropWidth(m_CurrentPage);
+	}
 
 	long AFPDFDoc::GetPageHeight(void)
 	{
 		
 		return m_PageHeight;
 	}
-
+	
+	long AFPDFDoc::GetPageCropHeight(void)
+	{
+		return m_PDFDoc->getPageCropHeight(m_CurrentPage);
+	}
 
 	OutlineItemA* AFPDFDoc::GetOutline(long iOutline)
 	{

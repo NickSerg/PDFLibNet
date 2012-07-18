@@ -76,8 +76,16 @@ long AFPDFDocInterop::FitScreenHeight(long lhWnd){
 long AFPDFDocInterop::GetPageWidth(void){
 	return ((AFPDFDoc *)_ptr)->GetPageWidth();
 }
+long AFPDFDocInterop::GetPageCropWidth(void)
+{
+	return ((AFPDFDoc *)_ptr)->GetPageCropWidth();
+}
 long AFPDFDocInterop::GetPageHeight(void){
 	return ((AFPDFDoc *)_ptr)->GetPageHeight();
+}
+long AFPDFDocInterop::GetPageCropHeight(void)
+{
+	return ((AFPDFDoc *)_ptr)->GetPageCropHeight();
 }
 
 long AFPDFDocInterop::GetOutlineCount(void){

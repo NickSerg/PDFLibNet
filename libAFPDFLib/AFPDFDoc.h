@@ -207,7 +207,9 @@ public:
 	double FitScreenWidth(long lhWnd);
 	double FitScreenHeight(long lhWnd);
 	long GetPageWidth(void);
+	long GetPageCropWidth(void);
 	long GetPageHeight(void);
+	long GetPageCropHeight(void);
 	OutlineItemA* GetOutline(long iOutline);
 	long GetOutlineCount(void);
 	long GetOutlinePtr(long iOutline);
